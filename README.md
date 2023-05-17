@@ -12,4 +12,4 @@ Each challenge is designed to cover various aspects of programming, including al
 - Expand my problem-solving abilities.
 - Learning new algorithms and data structures.
 - Explore different ways to solve a problem.
-- Challenge myself and have fun!
+- To challenge myself and have fun!
