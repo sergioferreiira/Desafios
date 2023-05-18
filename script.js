@@ -1,14 +1,70 @@
+// lição 14 ----------------- criar um elemento com js ---------//
+
+// const itemSelecionado = document.getElementById('resultado')
+
+// const paragrafo = document.createElement('h1');
+// paragrafo.textContent ='esse item foi criado pelo javaScript';
+
+// itemSelecionado.appendChild(paragrafo);
+
+
+
+
+// lição 12a ----------------- alterar background-color --------//
+
+// const colorBlack = document.getElementById('backBlack');
+// const colorBlue = document.getElementById('backBlue');
+
+// const bodyOfPage = document.getElementById('corpo');
+
+// colorBlack.addEventListener('click', () => {
+//     bodyOfPage.style.backgroundColor = 'black'
+// })
+
+// colorBlue.addEventListener('click', () => {
+//     bodyOfPage.style.backgroundColor = 'red';
+// })
+
+
+//lição 8/ 9 ----------------- pontuar cpf --------------------//
+
+// const cpf = document.getElementById('cpf');
+// const arrayCpf = cpf.value.split('');
+
+// const pontuacao = '.';
+// const traco = '-';
+
+// arrayCpf.splice(3, 1)
+// arrayCpf.splice(6, 1)
+// arrayCpf.splice(9, 1)
+
+// let result = arrayCpf.join('');
+
+// alert(result)
+
+// lição 7 ------------------ saudação ---------------------//
+// const firstName = document.querySelector('#texto');
+// const lastName = document.querySelector('#texto2');
+// const buttonResult = document.querySelector('#limpar');
+
+// buttonResult.addEventListener('click', () => {
+
+
+//     alert('Olá '+ firstName.value + " " + lastName.value);
+
+// })
+
 // ------------------- lampada -----------------------//
 
 // const lampada = document.querySelector('#objLampada');
 // const acende = document.querySelector('#acenderLampada')
 // const apaga = document.querySelector('#apagarLampada')
 
-// acende.addEventListener('click', () => {
+// acende.addEventListener('mouseover', () => {
 //     lampada.src = "https://github.com/gabrieldarezzo/helpjs-ravi/blob/master/images/lampada-on.jpg?raw=true"
 // })
 
-// apaga.addEventListener('click', () => {
+// apaga.addEventListener('mouseover', () => {
 //     lampada.src = "https://github.com/gabrieldarezzo/helpjs-ravi/blob/master/images/lampada.jpg?raw=true "
 
 // })
