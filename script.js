@@ -1,3 +1,58 @@
+// (21) ----------- calcular 5% de desconto --------------------//
+
+function calculaDesconto (valor ) {
+    const aplicarDesconto = valor * 0.05;
+    const valorfinal = valor - aplicarDesconto;
+
+    console.log(valorfinal);
+    
+}
+
+
+
+// (19) ----------- par ou impar -----------------//
+
+// function parOuImpar (numero){
+//     if (numero % 2 === 0){
+//         return 'par';
+//     } else {
+//         return 'impar';
+//     }
+// }
+
+
+// (16) --------- funçao que recebe 2 parametros e soma -------- //
+
+
+    // function soma (num1 , num2) {  
+    //     if (num1 === '' || num2 === '') {
+    //         return 0;
+        
+    //     }
+    //     return num1 + num2;
+    // }
+
+
+// (15) --------- criar um botao para aparecer o elemento ----- //
+
+// const divvazia = document.getElementById('resultado');
+// const botao = document.getElementById('btnresult');
+// const botaoLimpa = document.getElementById('btnlimpa');
+
+// botao.addEventListener('click', () => {
+//     const novoElemento = document.createElement('h1');
+//     novoElemento.classList.add('lista');
+//     novoElemento.textContent = 'eu fui criado pelo java script';
+
+//     divvazia.appendChild(novoElemento);
+// })
+
+// botaoLimpa.addEventListener('click', () => {
+//     document.getElementById('resultado').firstChild.remove(1)
+// })
+
+
+
 // lição 14 ----------------- criar um elemento com js ---------//
 
 // const itemSelecionado = document.getElementById('resultado')
